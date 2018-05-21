@@ -14,8 +14,8 @@ npm install --only=dev
 echo "---> list directory..."
 ls -la ./node_modules
 
-echo "---> Building Angular CLI Application"
-./node_modules/@angular/cli/bin/ng build --prod
+echo "---------> Building Angular CLI Application"
+./node_modules/angular-cli/cli/bin/ng build --prod
 
 popd
 
